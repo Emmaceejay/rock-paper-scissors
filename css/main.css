@@ -1,0 +1,136 @@
+
+
+body{
+    background-image: url("/images/black-concrete-wall_24972-1046.jpg");
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:x-large;
+    height: 100%;
+    /* color: aliceblue; */
+}
+
+#start-button{
+    text-transform: uppercase;
+    background-color: aliceblue;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    border-radius: 1rem;
+    box-shadow: -0.5rem -0.1rem 1rem;
+    border-bottom: 2px solid;
+    border-right: 1px solid;
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    transform: translate(-1%, -3%);
+}
+
+#start-button:hover{
+    background-color: blanchedalmond;
+    box-shadow: -0.5rem -0.1rem 1rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+html,body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.nobull{
+    list-style:none;
+}
+
+/* conatiner div */
+#main{
+    
+    display:flex;
+    background-color: aliceblue;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 6rem 1rem;
+    gap: 3rem;
+    padding: 5rem 3rem;
+    margin: 5rem 10rem ;
+   
+}
+
+
+/* || user option section */
+.options{
+    border-style: double;
+    border-bottom: solid black 0.2rem;
+    border-radius: 2rem 1rem;
+    margin: 1rem 0rem 1rem 0rem;
+    
+}
+
+h1{
+    text-align: center;
+    color: azure;
+    border-bottom: solid 0.2rem;
+    padding: 2rem;
+
+}
+
+ul{
+    display: flex;
+   
+    align-content: center;
+    gap: 15rem;
+    padding: 1rem 4rem 1rem 4rem;
+}
+
+button{
+    border-bottom: solid black 0.2rem;
+    font-size: 3rem;
+    padding: 1rem;
+    border-radius: 2rem 1rem;
+    border-style:double;
+    box-shadow: -0.5rem -0.1rem 1rem grey;
+    
+}
+button:focus{
+    background-color: moccasin;
+}
+
+button:hover{
+    background-color: blanchedalmond;
+}
+
+
+/* || choice outcomes */
+.outcome{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 2rem;
+    gap: 5rem;
+    padding: 1rem;
+    width: 40%;
+}
+
+
+/* || score board section */
+.score-board{
+    display: flex;
+    background-color: aliceblue;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 2rem;
+    box-shadow: -0.5rem -0.1rem 1rem grey;
+    font-size: 2rem;
+    gap: 10rem;
+    /* width:100%;*/
+}
+
+.scoreboard-set:hover{
+    background-color: blanchedalmond;
+}

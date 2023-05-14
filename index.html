@@ -14,12 +14,13 @@
         <p id="start-button">Start Game</p>
     </div>
 
-    <h1>Welcome to the classic Rock,Papper,Scissors GAME.</h1>
-    <div id="main"> 
+    
+    <div id="game-container"> 
+        <h1>Welcome to the classic Rock,Papper,Scissors GAME.</h1>
         <!-- player options -->
 
         <div class="options">
-            <div class="selection">
+            <div class="game-selection">
                 <ul class="nobull">
                     <li><button  id="rock">Rock</button></li>
                     <li><button  id="paper">Paper</button></li>
@@ -34,20 +35,25 @@
             <div class="computer-choice">Computer choice: </div>
         </div>
 
-        <!-- winner declarations section -->
+        <!-- winner realtime display section -->
         <div class="score-board">
             <div class="score-board scoreboard-set">
-                <div class="win-image">Human</div>
-                <div class="computer-score">Computer score: </div>
-                <div class="player-score">Player score:</div>
-                <div class="round-winner">Round Winner: </div>
-                <div class="champion">Champion: </div>
-                <div class="win-image">Computer</div>
+                <!-- <div class="win-image">Human</div> -->
+                <div>Computer score:<span class="computer-score"></span></div>
+                <div>Computer score:<span class="player-score"></span></div>
             </div>
-           
         </div>
-        
+    </div>
 
+    <div class="end-container">
+        <div class="game-winner">
+            <div><span class="round-winner">Round winner:</span></div>
+            <div class="result"></div>
+            <div class="champion"></div>
+            <div><img id="comp-image" class='hidden' src="/images/computer-win-time-bmo.gif" alt="computer cartoon win image"></div>
+            <div><img id="player-image" class='hidden' src="/images/gif-for-victory-boy-with-52650-161521.gif" alt="human cartoon win image"></div>
+        </div>
+        <div><p class="play-again">Play new round</p></div>
     </div>
 </body>
 </html>

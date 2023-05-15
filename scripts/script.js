@@ -20,7 +20,7 @@ const gameContainer = document.querySelector('#game-container');
 const endContainer = document.querySelector('.end-container');
 const result = document.querySelector('.result');
 const playerImage = document.querySelector('#player-image')
-const compImage = document.querySelector('comp-image')
+const compImage = document.querySelector('#comp-image')
 
 //computer input
 function computerPick(){
@@ -53,6 +53,7 @@ startButton.addEventListener('click', function(){
     startPage.style.opacity = 0;
     startPage.style.transform = 'scale(0)';
     startPage.style.display = 'none';
+
 //end container hide
     endContainer.style.opacity = 0;
     startPage.style.transform = 'scale(0)';

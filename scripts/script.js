@@ -57,7 +57,7 @@ startButton.addEventListener('click', function(){
 //end container hide
     endContainer.style.opacity = 0;
     startPage.style.transform = 'scale(0)';
-    startButton,style.display = 'none';
+    startButton.style.display = 'none';
 
 })
 

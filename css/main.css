@@ -125,6 +125,10 @@ button:hover{
     width: 40%;
 }
 
+.player-choice, .computer-choice{
+    white-space: nowrap;
+}
+
 
 /* || score board section */
 .score-board{

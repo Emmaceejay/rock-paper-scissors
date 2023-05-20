@@ -117,9 +117,7 @@ function playRound(playerSelection, computerSelection){
 
 }
 
-
-
-
+// function to declare final winner of round
 function winner(a, b){
     if (a ==3 || b == 3){
         let anounce = "";
